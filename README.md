@@ -3,7 +3,7 @@
 比赛地址:
 https://tianchi.aliyun.com/competition/entrance/531810/introduction
 
-项目主要文件目录
+项目主要文件目录:
 ```bash
 ├── bert_lstm.ipynb                           10个模型概率加权及生成伪标签  
 ├── bert_model                                5个bert模型  
@@ -31,4 +31,4 @@ https://tianchi.aliyun.com/competition/entrance/531810/introduction
 我这里提供的模型文件与我在比赛时提交的并不完全相同，所以你的预测结果会跟我有微小的误差。  
 还有一个导致预测结果存在误差的原因，就是5折LSTM原作者的模型并没有固定全部seed，而我出于某种玄学原因，决定维持原状。
 
-项目文件重新整理后并没有进行测试，如果存在BUG请反馈
+### 项目文件重新整理后并没有进行测试，如果存在BUG请反馈
