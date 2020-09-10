@@ -22,6 +22,7 @@ https://tianchi.aliyun.com/competition/entrance/531810/introduction
 ```
 
 如果你不能看懂这里的源码，推荐你看下我的比赛经验分享
+https://blog.csdn.net/lz123snow/article/details/108508189
 
 无论是bert预训练模型、bert分类模型，还是LSTM 5折交叉验证模型训练都非常耗时，如果你用单卡P100，训练时间将是以天为单位的。。。
 
