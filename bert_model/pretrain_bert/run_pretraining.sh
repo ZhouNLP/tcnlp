@@ -1,0 +1,12 @@
+python run_pretraining.py --input_file=../records/*.tfrecord  \
+  --output_dir=./bert-mini \
+  --do_train=True \
+  --do_eval=True \
+  --bert_config_file=config_base.json \
+  --train_batch_size=16 \
+  --eval_batch_size=16 \
+  --max_seq_length=256 \
+  --max_predictions_per_seq=32 \
+  --num_train_steps=1300000 \
+  --init_checkpoint=./bert-mini \
+  --learning_rate=1e-4
