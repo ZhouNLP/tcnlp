@@ -6,11 +6,11 @@ https://tianchi.aliyun.com/competition/entrance/531810/introduction
 项目主要文件目录
 
 ├── bert_lstm.ipynb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10个模型概率加权及生成伪标签  
-├── bert_model                                 5个bert模型  
-│   ├── BERT_fold_5.py                         seed=555，130w步bert_base模型，使用test_a伪标签  
-│   ├── BERT_fold_6.py                         seed=666，130w步bert_base模型，使用test_a伪标签  
-│   ├── BERT_fold_7.py                         seed=777，130w步bert_base模型，使用test_a伪标签  
-│   ├── BERT_fold_8.py                         seed=888，130w步bert_base模型，使用test_a伪标签  
+├── bert_model      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5个bert模型  
+│   ├── BERT_fold_5.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    seed=555，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_6.py  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  seed=666，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_7.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seed=777，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_8.py  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; seed=888，130w步bert_base模型，使用test_a伪标签  
 │   ├── BERT_fold_9.py                         seed=999，130w步bert_base模型，使用test_a伪标签  
 │   └── pretrain_bert                          bert_base预训练代码，语料为train_set + test_a  
 │       └── pretrain_bert.ipynb                bert_base预训练步骤  
