@@ -6,7 +6,7 @@ https://tianchi.aliyun.com/competition/entrance/531810/introduction
 项目主要文件目录
 
 ├── bert_lstm.ipynb　　　　　　　　　　　　　　　10个模型概率加权及生成伪标签  
-├── bert_model　　　　　　　　　　　　　　　　　　5个bert模型  
+├── bert_model　　　　　　　　　　　　　　　　　5个bert模型  
 │   ├── BERT_fold_5.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    seed=555，130w步bert_base模型，使用test_a伪标签  
 │   ├── BERT_fold_6.py  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  seed=666，130w步bert_base模型，使用test_a伪标签  
 │   ├── BERT_fold_7.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seed=777，130w步bert_base模型，使用test_a伪标签  
