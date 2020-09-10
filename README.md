@@ -6,19 +6,19 @@ https://tianchi.aliyun.com/competition/entrance/531810/introduction
 项目主要文件目录
 
 ├── bert_lstm.ipynb                            10个模型概率加权及生成伪标签  
-├── bert_model                                 5个bert模型
-│   ├── BERT_fold_5.py                         seed=555，130w步bert_base模型，使用test_a伪标签
-│   ├── BERT_fold_6.py                         seed=666，130w步bert_base模型，使用test_a伪标签
-│   ├── BERT_fold_7.py                         seed=777，130w步bert_base模型，使用test_a伪标签
-│   ├── BERT_fold_8.py                         seed=888，130w步bert_base模型，使用test_a伪标签
-│   ├── BERT_fold_9.py                         seed=999，130w步bert_base模型，使用test_a伪标签
-│   └── pretrain_bert                          bert_base预训练代码，语料为train_set + test_a
-│       └── pretrain_bert.ipynb                bert_base预训练步骤
-│       
-└── lstm_model                                5折交叉验证lstm模型
-    ├── lstm.py                               使用word2vec词向量，test_a伪标签
-    ├── word2vec.ipynb                        用天池官方的gensim训练word2vec代码，训练200维词向量，语料为train_set + test_a
-    └── word2vec.txt                          使用的word2vec词向量，200dim，10window，10iter
+├── bert_model                                 5个bert模型  
+│   ├── BERT_fold_5.py                         seed=555，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_6.py                         seed=666，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_7.py                         seed=777，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_8.py                         seed=888，130w步bert_base模型，使用test_a伪标签  
+│   ├── BERT_fold_9.py                         seed=999，130w步bert_base模型，使用test_a伪标签  
+│   └── pretrain_bert                          bert_base预训练代码，语料为train_set + test_a  
+│       └── pretrain_bert.ipynb                bert_base预训练步骤  
+│         
+└── lstm_model                                5折交叉验证lstm模型  
+    ├── lstm.py                               使用word2vec词向量，test_a伪标签  
+    ├── word2vec.ipynb                        用天池官方的gensim训练word2vec代码，训练200维词向量，语料为train_set + test_a  
+    └── word2vec.txt                          使用的word2vec词向量，200dim，10window，10iter  
 
 如果你不能看懂这里的源码，推荐你看下我的比赛经验分享
 
